@@ -1,3 +1,22 @@
+- [:cyclone: Array functions](#-cyclone--array-functions)
+    + [Explode Array](#explode-array) | [Array Size](#array-size) | [Array to String](#array-to-string) | [Array Contains](#array-contains)
+- [:card_index: Struct functions](#-card-index--struct-functions)
+    + [cDim index](#cdim-index)
+- [:date: Date functions](#-date--date-functions)
+    + [UTC to User timezone](#utc-to-user-timezone) | [Day of week](#day-of-week) | [Date Diff](#date-diff) | [Date Add](#date-add) | [Date Trunc](#date-trunc) | [Hour Add](#hour-add) | [Date Filters (single day)](#date-filters--single-day-) | [Date Filters (range)](#date-filters--range-) | [Get Week begin date](#get-week-begin-date)
+- [:alarm_clock: Timestamp functions](#-alarm-clock--timestamp-functions)
+    + [Timestamp to date](#timestamp-to-date) | [EPOCH/Unixtime to Timestamp](#epoch-unixtime-to-timestamp) | [Timestamp to EPOCH/Unixtime](#timestamp-to-epoch-unixtime) | [Get Hour](#get-hour) | [Timestamp Filters (as date range)](#timestamp-filters--as-date-range-) | [Timestamp Filters (as time range)](#timestamp-filters--as-time-range-) | [String to Date](#string-to-date)
+- [:capital_abcd: String functions](#-capital-abcd--string-functions)
+    + [Concat](#concat)
+- [:hash: Hash functions](#-hash--hash-functions)
+    + [Hash functions](#hash-functions) | [Hash mod functions](#hash-mod-functions)
+- [:link: Aggregate functions](#-link--aggregate-functions)
+- [:musical_keyboard: Grouping Sets, Cube, Rollup functions](#-musical-keyboard--grouping-sets--cube--rollup-functions)
+    + [Rollup](#rollup) | [Cube](#cube) | [Grouping Sets](#grouping-sets)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## :cyclone: Array functions
 #### Explode Array
 ```sql
