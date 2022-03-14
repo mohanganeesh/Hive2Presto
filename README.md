@@ -211,6 +211,11 @@ Hive: percentile(x, percentage)
 Vertica: approximate_percentile(x USING PARAMETERS percentile=percentage) 
 ```
 
+```
+Presto: MAX_BY(x, y)
+Hive: ?
+```
+
 ## :musical_keyboard: Grouping Sets, Cube, Rollup functions
 #### Rollup
 ```sql
